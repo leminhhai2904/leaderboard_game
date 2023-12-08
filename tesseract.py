@@ -44,27 +44,3 @@ read_button.pack(pady=10)
 
 # Bắt đầu vòng lặp sự kiện để hiển thị cửa sổ
 root.mainloop()
-
-
-# def tesseract_OCR():
-#     # Chỉ định đường dẫn tới tesseract executable
-#     pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'  # Điều chỉnh đường dẫn tùy theo cài đặt của bạn
-#
-#     # Đường dẫn đến ảnh
-#     image_path = 'test.png'
-#
-#     # Đọc ảnh
-#     image = Image.open(image_path)
-#
-#     # Nhận diện văn bản
-#     text = pytesseract.image_to_string(image, lang='vie')
-#
-#     # Hiển thị văn bản
-#     print(text)
-#
-#     # Ghi văn bản vào file
-#     output_file_path = 'test.txt'
-#     with open(output_file_path, 'w', encoding='utf-8') as file:
-#         file.write(text)
-#
-#     print(f'Văn bản đã được ghi vào file {output_file_path}')
